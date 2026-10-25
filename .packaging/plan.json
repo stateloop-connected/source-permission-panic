@@ -1,0 +1,14 @@
+{
+  "build_script": "tsc -b && vite build && node scripts/build-offline.mjs",
+  "gameplay_or_asset_changes": false,
+  "lockfile": "package-lock.json",
+  "mode": "native_source_build",
+  "repository": "karurukaruru/permission-panic",
+  "schema_version": 1,
+  "source_changes": [
+    ".packaging/plan.json"
+  ],
+  "status": "ready",
+  "upstream_code_executed_locally": false,
+  "upstream_sha": "0d2e943d334a0fb4d1a105a5405114296fc4899e"
+}
